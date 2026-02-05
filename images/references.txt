@@ -1,0 +1,8 @@
+image1_natural.png:
+https://pixabay.com/photos/avenue-trees-path-sunbeams-sunrays-815297/
+
+image2_synthetic.png:
+https://pixabay.com/vectors/exit-highway-road-montreal-154024/
+
+image3_binary.png:
+code QR généré.
