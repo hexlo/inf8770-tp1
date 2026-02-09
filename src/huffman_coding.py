@@ -60,7 +60,9 @@ def huffman(image_path):
     nbsymboles = len(symbols_uniques)
     print("Nombre de symboles différents: {0}", nbsymboles)
 
-    longueurOriginale = np.ceil(np.log2(nbsymboles))*len(Message)
+    # Calcul de la taille originale en bits (8 bits par symbole)
+    # On suppose que l'image source est toujours stockée sur 8 bits par canal
+    longueurOriginale = len(Message) * 8
 
     OccSymb = ArbreSymb.copy()
 
